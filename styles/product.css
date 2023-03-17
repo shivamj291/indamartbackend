@@ -1,0 +1,273 @@
+
+#products {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    gap: 20px;
+    width: 80%;
+}
+
+
+
+
+
+#footer{
+    width: 100%;
+   }
+   #footer #upper div p{
+    font-size: 25px;
+    color: rgb(46,49,146);
+    margin-left: 15%;
+    margin-top: 0;
+   }
+   #footer #upper{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.144);
+    height: 35px;
+    padding:5px;
+    display: flex;
+    justify-content: space-around;
+   }
+   #upper div{
+    
+    width: 400px;
+   }
+   #gomobile{
+    margin-left:30%;
+    text-align:left; 
+    display: flex;
+    height: 25px;
+    margin-top:1px
+  }
+  #gomobile i{
+    margin:3px;
+    font-size: 25px;
+    border-radius: 25px ;
+  }
+   #footer #middle{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+   }
+   #face i{
+    color:blue;
+   }
+   #link i{
+    color:#007AB9
+   }
+   #twit i{
+    color:#55ACEE;
+   }
+   #footer #middle a{
+   text-decoration: none;
+   color:grey;
+   }
+   #footer #middle a:hover{
+    color: rgb(46,49,146);
+   }
+   #middle p{
+    font-size: 18px ;
+    margin:-10px 0 6px 0;
+   }
+   #middle #supplies p{
+    margin-bottom: 16px;
+   }
+   #footer #lower span{
+       color:grey;
+       font-size: 15px;
+   }
+   #lower{
+    display: flex;
+    justify-content:space-around;
+   }
+  
+   /* sign in */
+  #signIn{
+    width:18%;
+    height: 500px;
+    background-color: rgba(246, 238, 238, 0.377);
+  }
+   #signIn button{
+    padding:10px 35px 10px 35px;
+    background-color:#00A699;
+    color:white;
+    border: none;
+    display: flex;
+    margin:10px auto;
+   }
+   #signIn p,a{
+    font-size: 14px;
+    margin:auto 0;
+    margin-left: 10px;
+   }
+   #signIn p:hover{
+    color:blue;
+    text-decoration: underline;
+   }
+   #signIn h3{
+    
+    margin-left:20px;
+   }
+   #signIn h3:hover{
+    color:blue;
+    text-decoration: underline;
+   }
+   
+   
+   #signIn #join{
+    display: flex;
+   }
+   .sign_middle_class{
+    margin-bottom: 20px;
+   }
+   #static{
+    position: relative;
+    padding-top:27px
+  }
+  #signIn{
+    position:fixed;
+    top:50px;
+    right:0;
+    z-index: 5;
+    margin-top:190px;
+    display: block;
+    margin:auto;
+    background-color: white;
+    display: none;
+  }
+  .test div{
+    margin-left: 30px;
+    margin-bottom: 60px;
+  }
+
+
+
+
+
+
+
+
+
+
+ .product-div {
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+} 
+.product-div p,h3,h2 {
+   margin:5px
+    
+} 
+.product-div :hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+#prod-image {
+    height: 200px;
+    width: 200px;
+}
+
+#prod-image:hover {
+    /* height: 350px; */
+    width: 300px;
+}
+
+
+#prod-btn {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    height: 34px;
+    background-color: rgb(4,130,120);
+    color:white;
+    font-size:medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#prod-btn:hover {
+    height: 40px;
+    width: 220px;
+    background-color: rgb(3, 63, 58);
+    text-decoration: none;
+}
+
+#product-page {
+    display: flex;
+}
+#product-list {
+    width: 20%;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    gap: 20px;
+    overflow:scroll;
+}
+#product-list > div {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#product-list > div > div {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#product-page > #product-list > div p{
+    list-style: none;
+    line-height: 169%;
+    text-align: left;
+    margin: 10px;
+    text-decoration: none;
+    outline: none;
+    color: grey; 
+    cursor: pointer;  
+}
+
+#product-list > div > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+
+#product-list > div > div > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 550;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#prod-city {
+    margin-top: 60px;
+    display: flex;
+    gap: 15px;
+    padding-left: 20px;
+    color: grey; 
+    cursor: pointer;
+    background-color:cornsilk;
+}
+#search-city {
+    margin-top: 10px;
+    height: 25px;
+    cursor: pointer;
+}
+#nearme-btn {
+    width: 100px;
+    height: 32px;
+    border: none;
+    color: gray;
+    cursor: pointer;
+    margin-top: 10px;
+}
+ ::placeholder {
+    padding-left: 10px;
+}
+#searched-query {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-left: 20px;
+    line-height: 5px;
+}
+
