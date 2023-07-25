@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
-
+require("dotenv").config();
 
 async function connectDb(){
-  const result = mongoose.connect('mongodb://127.0.0.1:27017/indiamartdata');
+  const result = mongoose.connect(process.env.mongoUrl);
   return result;
 }
 module.exports = {connectDb}

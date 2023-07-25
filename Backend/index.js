@@ -10,11 +10,15 @@ app.use(cors());
 app.use('/data',dataRouter);
 app.use('/seller',sellerRouter)
 
+require("dotenv").config();
 
+const port = process.env.port
   
 connectDb().then(()=>{
     
-  app.listen(8000,()=>{
+  app.listen(port,()=>{
       console.log("hello ready for run")
   })
 })
+
+// 
