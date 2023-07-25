@@ -1,8 +1,6 @@
 const modalsdata = require("../Modals/Modals")
 async function addData(data){
-    const mart = await modalsdata.create({
-        ...data,
-    })
+    const mart = await modalsdata.create(data)
     return mart;
 }
 

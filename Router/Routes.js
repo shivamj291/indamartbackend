@@ -28,7 +28,7 @@ router.get('/', async (req, res) => {
     router.post('/', async (req, res) => {
         try {
             const mart = await addData(req.body);
-    
+             console.log(mart)
             return res.send({
                 data:mart
             })
